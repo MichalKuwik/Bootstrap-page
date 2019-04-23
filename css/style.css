@@ -64,3 +64,17 @@ p{
 .info-right{
     margin-top:90px;
 }
+
+#info2{
+    margin-bottom:60px;
+}
+
+#contact{
+    background: #f1f1f1;
+}
+#contact form{
+    margin-top:50px;
+}
+#contact img{
+    width:100%;
+}
