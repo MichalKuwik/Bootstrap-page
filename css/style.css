@@ -8,7 +8,7 @@
     font-family: 'Poppins',sans-serif;
 }
 .navbar-brand{
-    font-size:20px;
+    font-size:30px;
     color:#000 !important;
     font-weight: bold;
 }
@@ -16,7 +16,9 @@
     width:90%;
     height: 90%;
 }
-
+.nav-item{
+    font-size:20px;
+}
 .showcase-left{
     margin-top:10px;
 }
@@ -71,6 +73,7 @@ p{
 
 #contact{
     background: #f1f1f1;
+    padding-bottom:40px;
 }
 #contact form{
     margin-top:50px;
