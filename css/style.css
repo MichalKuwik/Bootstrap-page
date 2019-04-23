@@ -52,8 +52,15 @@ p{
     color:#666;
 }
 
+.info-left img{
+    width:100%;
+}
 @media screen and (max-width:768px){
     .showcase-left{
         margin-top:50px;
     }
+}
+
+.info-right{
+    margin-top:90px;
 }
