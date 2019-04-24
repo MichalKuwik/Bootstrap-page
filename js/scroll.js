@@ -12,10 +12,11 @@ $('a[href*="#"]').on('click', function(e) {
     )
         })
 
-//DOM buttons
-const btns = document.querySelectorAll('.btn');
+//DOM buttons,modifed from nodeList to array with rest operator
+const btns = [...document.querySelectorAll('.btn')];
 
-//function add alert onClick event on buttons
+
+// function add alert onClick event on buttons
 btns.forEach(btn => btn.addEventListener('click',function(e){
     e.preventDefault();
     alert('Brak przekierowania, wersja testowa!');
