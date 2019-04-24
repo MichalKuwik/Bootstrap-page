@@ -11,3 +11,4 @@ $('a[href*="#"]').on('click', function(e) {
         'linear'
     )
         })
+
